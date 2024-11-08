@@ -3,6 +3,7 @@
 
 CSC173: Project 1 
 **Finite Automata**
+
 Finite automata are simple computing “devices” that recognize patterns, as seen in class
 and in the textbook.
 For this project, you must implement a framework that you (or any programmer) can use
@@ -19,6 +20,7 @@ implement the framework.
 
 CSC173: Project 2
 **Recursive Descent and Table-Driven Parsing**
+
 The goal of this project is to demonstrate your understanding of the formal model of
 context-free grammars and parsing by applying the principles of the model to a specific
 grammar (details below).
@@ -30,6 +32,7 @@ required.
 
 CSC173: Project 3
 **Functional Programming**
+
 In this unit, we are looking at Alan Turing’s formalization of “computable functions” using
 Turing machines. I have posted Turing’s famous paper On Computable Numbers (Turing,
 1937a) on BlackBoard for you
@@ -39,6 +42,7 @@ Turing machines. I have posted Turing’s famous paper On Computable Numbers (Tu
 
 CSC173: Project 4
 **The Relational Data Model**
+
 In this project you will gain experience with databases and relational algebra by imple-
 menting your own database system. We will build on the presentation (and code) in the
 textbook. You must follow the formal model, even though your database will be very
