@@ -3,7 +3,6 @@
 
 CSC173: Project 1 
 **Finite Automata**
-
 Finite automata are simple computing “devices” that recognize patterns, as seen in class
 and in the textbook.
 For this project, you must implement a framework that you (or any programmer) can use
