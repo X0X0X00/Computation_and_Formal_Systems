@@ -1,0 +1,20 @@
+SNAP hashtable with 11 buckets
+SNAP hashtable with 11 buckets
+2: <22222,"P. Patty","56 Grape Blvd.","555-9999">
+3: <12345,"C. Brown","12 Apple St.","555-1234">
+9: <67890,"L. Van Pelt","34 Pear Ave.","555-5678">
+SNAP_lookup: <12345,"","","">
+<12345,"C. Brown","12 Apple St.","555-1234">
+SNAP_lookup: <-1,"L. Van Pelt","","">
+<67890,"L. Van Pelt","34 Pear Ave.","555-5678">
+SNAP_lookup: <-1,"","","555-9999">
+<22222,"P. Patty","56 Grape Blvd.","555-9999">
+SNAP_delete: <22222,"P. Patty","56 Grape Blvd.","555-9999">
+SNAP hashtable with 11 buckets
+3: <12345,"C. Brown","12 Apple St.","555-1234">
+9: <67890,"L. Van Pelt","34 Pear Ave.","555-5678">
+SNAP_delete: <-1,"L. Van Pelt","","">
+SNAP hashtable with 11 buckets
+3: <12345,"C. Brown","12 Apple St.","555-1234">
+SNAP_delete: <12345,"","","">
+SNAP hashtable with 11 buckets
