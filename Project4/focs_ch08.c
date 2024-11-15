@@ -53,8 +53,8 @@ typedef struct SNAP_TUPLE SNAP_TUPLE; // See note [4]
  * Allocate a new SNAP tuple, initialize it with the given values,
  * and return the reference (pointer) to it.
  */
-SNAP_TUPLE*
-new_SNAP_TUPLE(int studentId, char* name, char* address, char* phone) {
+
+SNAP_TUPLE* new_SNAP_TUPLE(int studentId, char* name, char* address, char* phone) {
     SNAP_TUPLE* this = ...;
     ...;
     return this;
@@ -206,3 +206,23 @@ main(int argc, char** argv) {
     SNAP_delete(t, R);
     SNAP_HASHTABLE_print(R);
 }
+
+
+//    结构定义和初始化
+//    struct SNAP_TUPLE: 定义一个结构体，包括学生ID、姓名、地址、电话和一个指向下一个元组的指针。这允许在哈希桶中形成链表。
+//    typedef struct SNAP_TUPLE *SNAP_TUPLELIST: 将指向 SNAP_TUPLE 的指针定义为 SNAP_TUPLELIST，用于表示链表。
+//    SNAP_HASHTABLE: 一个数组，其中每个元素都是指向 SNAP_TUPLELIST 的指针，代表一个哈希桶。
+//    函数实现
+//    new_SNAP_TUPLE: 分配并初始化一个新的 SNAP 元组，返回指向这个元组的指针。
+//    SNAP_TUPLE_print: 打印一个给定的 SNAP 元组。
+//    h_SNAP_studentId: 通过学生ID来计算哈希值，确定元组应该放入哪个桶。
+//    SNAP_insert: 在哈希表中插入一个新的元组，如果该元组已经存在，则不进行任何操作。
+//    SNAP_lookup: 根据给定的规格查找匹配的元组。如果规格中包含可哈希的属性（如学生ID），只在对应的桶中搜索；如果不包含，需要遍历所有桶。
+//    SNAP_delete: 删除与给定规格匹配的元组。工作原理类似于查找操作，但是会从链表中移除找到的元组。
+//    SNAP_HASHTABLE_init: 初始化一个哈希表，将所有桶设置为空。
+//    SNAP_HASHTABLE_print: 打印哈希表，仅打印非空的桶。
+//    主函数
+//    初始化哈希表并打印其初始状态。
+//    创建并插入几个元组，然后打印哈希表的状态。
+//    执行几次查找操作，根据不同的条件（部分信息）搜索元组。
+//    执行删除操作，根据指定的条件删除元组，并在每次删除后打印哈希表的状态。

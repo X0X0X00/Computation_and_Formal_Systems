@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Proj4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proj4">
+				<Option output="/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Proj4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proj4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proj4/fast">
+				<Option output="/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Proj4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proj4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zzh/CLion/CSC_173_Project4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/main.c">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/pd.c">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/pd.h">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/pda.c">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/pda.h">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/pm.c">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/pm.h">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/pmda.c">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/pmda.h">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/psh.c">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/psh.h">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/snop.c">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/snop.h">
+			<Option target="Proj4"/>
+		</Unit>
+		<Unit filename="/Users/zzh/CLion/CSC_173_Project4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
