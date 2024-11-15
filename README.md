@@ -1,4 +1,4 @@
-# CSC173
+# CSC173 Computation and Formal Systems
 4 Project
 
 CSC173: Project 1 
