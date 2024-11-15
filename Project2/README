@@ -1,1 +1,27 @@
 
+CSC173
+Project 2
+Zhenhao Zhang zzh133@u.rochester.edu
+
+I finished the entire project. I used the code from the lecture and focs_11_27.c.
+In the project, I write the code for the following functions: Recursive descent parser,and Table-driven parser.
+Follow the rule:
+// P → S;P | ε
+// S → V=E | >E
+// E → TZ
+// Z → +TZ | -TZ | ε
+// T → FU
+// U → *FU | /FU | ε
+// F → (E) | V | N | <
+// N → DM
+// M → N | ε
+// D → 0 | ··· | 9
+// V → a | ··· | z
+
+
+Open the terminal, and use cd command. Go to the directory where the file is located. If you are using the gcc compiler, type the following command to compile the file:
+gcc -std=c99 -Wall -Werror -o EXECUTABLE *.c
+./EXECUTABLE
+Then the program starts. For each input string, the program will output the result of the recursive descent parser and the table-driven parser. If you input "quit", the program will stop.
+
+
